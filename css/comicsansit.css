@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'LDFComicSans';
+  src: url('../font/LDFComicSans.ttf')  format('truetype')
+}
+
+/* Comic Sans It */
+
+body.comicsansit :not(.mce-ico) {
+  font-family: 'LDFComicSans', cursive !important;
+}

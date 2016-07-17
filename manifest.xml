@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE plugin SYSTEM "manifest.dtd">
+<plugin version="2">
+	<info>
+		<version>1.0</version>
+		<name>comicsansit</name>
+		<title>Comic Sans It</title>
+		<author>Martijn Alberts</author>
+		<authorURL>http://www.kopano.com</authorURL>
+		<description>This plugin makes your WebApp pretty!</description>
+	</info>
+	<config>
+		<configfile>config.php</configfile>
+	</config>
+	<components>
+		<component>
+			<files>
+				<server>
+					<serverfile>php/plugin.comicsansit.php</serverfile>
+				</server>
+				<client>
+					<clientfile load="release">js/comicsansit.js</clientfile>
+					<clientfile load="debug">js/comicsansit.js</clientfile>
+					<clientfile load="source">js/comicsansit.js</clientfile>
+				</client>
+				<resources>
+					<resourcefile load="release">css/comicsansit.css</resourcefile>
+					<resourcefile load="release">font/LDFComicSans.ttf</resourcefile>
+				</resources>
+			</files>
+		</component>
+	</components>
+</plugin>
