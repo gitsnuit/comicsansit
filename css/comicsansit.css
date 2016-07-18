@@ -8,3 +8,8 @@
 body.comicsansit :not(.mce-ico) {
   font-family: 'LDFComicSans', cursive !important;
 }
+
+#zarafa-navigationpanel.comicsansit .zarafa-hierarchy-node .zarafa-hierarchy-node-anchor span {
+  font-family: 'LDFComicSans', cursive !important;
+}
+
