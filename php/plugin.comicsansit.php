@@ -1,9 +1,9 @@
 <?php
 
 /**
- * WebApp Manual Plugin
+ * Comic Sans Plugin
  *
- * Integrates references to the WebApp User Manual into the WebApp
+ * Make WebApp pretty!
  */
 class Plugincomicsansit extends Plugin {
 

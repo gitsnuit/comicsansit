@@ -1,4 +1,4 @@
 <?php
-// The base URL where the User Manual for Zarafa can be found
+// Enable the Comic Sans font plugin
 define('PLUGIN_COMICSANSIT_USER_DEFAULT_ENABLE', false);
 ?>
