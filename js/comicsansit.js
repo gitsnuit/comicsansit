@@ -9,7 +9,7 @@ Zarafa.plugins.comicsansit.ComicSansItPlugin  = Ext.extend(Zarafa.core.Plugin, {
      
 
     initPlugin : function() {
-    document.body.className = "comicsansit";
+    document.body.className += " comicsansit";
     container.getNavigationBar().el.addClass('comicsansit');
     }	 
 	
