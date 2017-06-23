@@ -38,7 +38,7 @@ class Plugincomicsansit extends Plugin {
 
 	/**
 	 * Called when the core Settings class is initialized and ready to accept sysadmin default
-	 * settings. Registers the URL for the WebApp manual into the settings.
+	 * settings. Registers the URL for the comic sans plugin into the settings.
 	 * @param Array $data Reference to the data of the triggered hook
 	 */
 	function injectPluginSettings(&$data) {

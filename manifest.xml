@@ -24,8 +24,9 @@
 					<clientfile load="source">js/comicsansit.js</clientfile>
 				</client>
 				<resources>
+					<resourcefile load="source">css/comicsansit.css</resourcefile>
+					<resourcefile load="debug">css/comicsansit.css</resourcefile>
 					<resourcefile load="release">css/comicsansit.css</resourcefile>
-					<resourcefile load="release">font/LDFComicSans.ttf</resourcefile>
 				</resources>
 			</files>
 		</component>
