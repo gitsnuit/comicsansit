@@ -10,7 +10,7 @@ class Plugincomicsansit extends Plugin {
 	/**
 	 * Constructor
 	 */
-	function Plugincomicsansit() {}
+	function __construct() {}
 
 	/**
 	 * Function initializes the Plugin and registers all hooks
